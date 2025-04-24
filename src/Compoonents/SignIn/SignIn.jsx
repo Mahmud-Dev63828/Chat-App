@@ -9,6 +9,7 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
 } from "firebase/auth";
+import { NavLink } from "react-router";
 
 const SignIn = () => {
   const auth = getAuth();
@@ -120,6 +121,14 @@ const SignIn = () => {
             >
               Login to Continue
             </button>
+            <p className="mt-3.5">
+              Dosen't have an account?
+              <NavLink to="/signin" end>
+                <span className="text-purple-600 cursor-pointer font-semibold">
+                  Sign In
+                </span>
+              </NavLink>
+            </p>
           </div>
         </div>
         <div className="w-1/2  h-screen">

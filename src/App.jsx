@@ -1,7 +1,9 @@
 import React from "react";
-import SignUp from "../src/Compoonents/SignUp";
+
 import { BrowserRouter, Routes, Route } from "react-router";
 import SignIn from "../src/Compoonents/SignIn/SignIn";
+import SignUp from "./Compoonents/SignUp/SignUp";
+import Sidebar from "./Compoonents/HomeComponens/Sidebar";
 
 const App = () => {
   return (
@@ -9,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
+        <Route path="/home" element={<Sidebar />} />
       </Routes>
     </BrowserRouter>
   );

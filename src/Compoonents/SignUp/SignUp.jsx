@@ -6,8 +6,8 @@ import {
 } from "firebase/auth";
 import { NavLink } from "react-router";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // 👁️ React Icons ইমপোর্ট
-import libery from "../Libery/libery";
-import signUpImg from "../../src/assets/images/banner.jpg";
+import libery from "../../Libery/libery";
+import signUpImg from "../../assets/images/banner.jpg";
 
 import { HashLoader, PropagateLoader } from "react-spinners";
 
