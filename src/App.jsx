@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import SignIn from "../src/Compoonents/SignIn/SignIn";
 import SignUp from "./Compoonents/SignUp/SignUp";
 import Sidebar from "./Compoonents/HomeComponens/Sidebar";
+import Home from "./Pages/Home/Home";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
-        <Route path="/home" element={<Sidebar />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
