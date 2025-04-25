@@ -9,11 +9,11 @@ import BlockUser from "../../Compoonents/HomeComponens/BlockUser";
 
 const Home = () => {
   return (
-    <div className="flex gap-5 bg-purple-200 ">
+    <div className="flex gap-5 bg-purple-200  ">
       <div>
         <Sidebar />
       </div>
-      <div className="flex gap-5 bg-purple-200 mt-2  justify-between flex-wrap">
+      <div className="flex  bg-purple-200 mt-2 justify-between   items-start flex-wrap">
         <div className="w-[26vw]   px-2">
           <GroupList />
         </div>

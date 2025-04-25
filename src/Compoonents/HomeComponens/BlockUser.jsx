@@ -5,7 +5,7 @@ const BlockUser = () => {
   const [arrayLength, setArrayLength] = useState(10);
 
   return (
-    <div className="p-4  bg-white rounded-xl shadow-lg h-[40dvh] flex flex-col">
+    <div className="p-4  bg-white rounded-xl shadow-lg h-[44dvh] flex flex-col">
       {/* Group List Header */}
       <div className="flex items-center justify-between mb-4">
         <h1 className="text-xl font-semibold text-purple-700 relative">

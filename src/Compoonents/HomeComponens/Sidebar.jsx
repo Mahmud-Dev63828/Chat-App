@@ -31,15 +31,15 @@ const Sidebar = () => {
 
         {/* Profile section */}
         <div className="flex flex-col items-center text-center">
-          <div className="w-[80px] h-[80px] rounded-full bg-white mb-3 overflow-hidden">
+          <div className="w-[80px] h-[80px] rounded-full bg-white mb-3 overflow-hidden ring-2 ring-purple-500">
             <img
-              src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D"
+              src="https://scontent.fbzl5-1.fna.fbcdn.net/v/t39.30808-6/455359102_1059731762345088_4145910276523125828_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHqaG-UOYZfGMHLs1gvChKBAv2Yev76B4UC_Zh6_voHhegsgTNMNuAMVC0FyQU353Z7w8CPeypYOzX-DXH-Gt_X&_nc_ohc=115J1tudNG8Q7kNvwFxMu3t&_nc_oc=Adl3uut-pvG5X3CqpCmlhVBEPl2iNoXdmQXYhxhAxnRkswKQjAZUf65Q1-24MtP2N1Y&_nc_zt=23&_nc_ht=scontent.fbzl5-1.fna&_nc_gid=e0IeRkabGACYUNSPIX7U0A&oh=00_AfGp7XkzJG-gBWM4K0drLPC2pJ0N2kDi3Y9Bppsd-WZoog&oe=6811B125"
               alt="profile"
               className="rounded-full w-full h-full object-cover"
             />
           </div>
           <h2 className="text-base font-semibold">Mahmud Hasan</h2>
-          <p className="text-xs text-gray-300">26 y/o</p>
+          <p className="text-xs text-gray-300">20 y/o</p>
           <div className="bg-blue-600 px-3 py-1 text-xs rounded-full mt-2">
             #3479280
           </div>

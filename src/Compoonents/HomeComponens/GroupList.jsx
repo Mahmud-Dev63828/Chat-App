@@ -5,7 +5,7 @@ const GroupList = () => {
   const [arrayLength, setArrayLength] = useState(10);
 
   return (
-    <div className="p-4 h-[60dvh] bg-white rounded-xl shadow-lg flex flex-col">
+    <div className="p-4 h-[50dvh] bg-white rounded-xl shadow-lg flex flex-col">
       {/* Search Bar */}
       <div className="mb-4">
         <div className="relative">
@@ -59,8 +59,6 @@ const GroupList = () => {
                 src="https://images.pexels.com/photos/16004754/pexels-photo-16004754/free-photo-of-woman-and-letters.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="Group Avatar"
               />
-              {/* Active dot */}
-              <span className="absolute bottom-0 right-0 w-3.5 h-3.5 bg-green-500 border-2 border-white rounded-full"></span>
             </div>
 
             {/* Group Info */}
