@@ -3,6 +3,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 
 const BlockUser = () => {
   const [arrayLength, setArrayLength] = useState(10);
+  const [deleteLength, setsetLength] = useState(10);
 
   return (
     <div className="p-4  bg-white rounded-xl shadow-lg h-[44dvh] flex flex-col">
@@ -42,7 +43,7 @@ const BlockUser = () => {
                 Mahmudul Hasan
               </h2>
               <p className="text-sm text-purple-500 truncate">
-                mahmudul.hasan63828@gmail.com
+                mahmudul.hasan63828@gmail.com mahmudul.hasan63828@gmail.com
               </p>
             </div>
             {/* Button */}
