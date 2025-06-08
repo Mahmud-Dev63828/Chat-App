@@ -50,6 +50,9 @@ const BlockUser = () => {
             <button className="bg-purple-600 hover:bg-purple-700 transition-all px-2 py-1.5 text-white text-sm font-medium rounded-md">
               Block
             </button>
+            <button className="bg-purple-600 hover:bg-purple-700 transition-all px-2 py-1.5 text-white text-sm font-medium rounded-md">
+              Block
+            </button>
           </div>
         ))}
       </div>

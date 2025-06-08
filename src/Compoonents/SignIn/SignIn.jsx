@@ -123,9 +123,9 @@ const SignIn = () => {
             </button>
             <p className="mt-3.5">
               Dosen't have an account?
-              <NavLink to="/signin" end>
+              <NavLink to="/signup" end>
                 <span className="text-purple-600 cursor-pointer font-semibold">
-                  Sign In
+                  SignUp
                 </span>
               </NavLink>
             </p>
